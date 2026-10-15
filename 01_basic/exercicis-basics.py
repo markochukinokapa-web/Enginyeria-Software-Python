@@ -64,8 +64,9 @@ print("3. Fes la divisió entera entre el nombre resultant i el nombre 2")
 print("4. El resultat hauria de ser 1")
 
 pi
-round(pi)
-print("--------------")
+enter = round(pi)
+divisio = enter//2
+print(f"el resultat es {divisio}")
 
 print("\nExercici 6: Conversor de temperatura")
 print("Demana a l'usuari una temperatura en graus Celsius.")
@@ -73,8 +74,9 @@ print("Converteix aquest valor a Fahrenheit amb la fórmula: F = (C * 9/5) + 32"
 print("Mostra els dos valors amb un missatge clar.")
 
 ### Completa aquí
-
-print("--------------")
+temperatura = int(input("introdueix una temperatura"))
+fahrenheit = (temperatura * 9//5)+ 32
+print(f"la temperatura en celsius es {temperatura} i en fahrenheit es {fahrenheit}")
 
 print("\nExercici 7: Calculadora de propina")
 print("Demana el total d'un compte i el percentatge de propina.")
@@ -83,7 +85,12 @@ print("Mostra els resultats amb 2 decimals.")
 
 ### Completa aquí
 
-print("--------------")
+total,percentatge = input("quin es el total del compte i quin es el percentatge de la propina").split()
+total = float(total)
+percentatge= float(percentatge)
+final = total - total*(percentatge//100)
+round(final,2)
+print(f"el total final es {final}")
 
 print("\nExercici 8: Validador de contrasenya simple")
 print("Demana una contrasenya a l'usuari.")
@@ -91,3 +98,7 @@ print("Comprova si té almenys 8 caràcters.")
 print("Mostra 'Contrasenya vàlida' o 'Contrasenya no vàlida'.")
 
 ### Completa aquí
+
+pin = int(input("introdueix la teva contrasenya"))
+concl=(pin>0)
+print(f"la contrasenya es {concl}")
