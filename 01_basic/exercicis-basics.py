@@ -3,12 +3,16 @@
 # Exercicis per practicar els conceptes apresos a les lliçons.
 ###
 
+from cmath import pi
+
+
 print("\nExercici 1: Imprimir missatges")
 print("Escriu un programa que imprimeixi el teu nom i la teva ciutat en línies separades.")
 
 ### Completa aquí
-
-print("--------------")
+nom = "Marko"
+ciutat = "Tarrega"
+print(f"em dic {nom}\nsoc de {ciutat}")
 
 print("\nExercici 2: Mostra els tipus de dades de les variables següents:")
 print("Utilitza la comanda 'type()' per determinar el tipus de dades de cada variable.")
@@ -20,7 +24,11 @@ e = None
 
 ### Completa aquí
 
-print("--------------")
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
 
 print("\nExercici 3: Conversió de tipus")
 print("Converteix la cadena \"12345\" a un enter i després a un float.")
@@ -28,7 +36,11 @@ print("Converteix el float 3.99 a un enter. Què passa?")
 
 ### Completa aquí
 
-print("--------------")
+print(int(12345))
+print(float(12345))
+print(int(3.99))
+#si el float 3.99 es transforma en un int, els decimals queden eliminats i queda nomes un 3
+
 
 print("\nExercici 4: Variables")
 print("Crea variables per al teu nom, edat i alçada.")
@@ -40,7 +52,10 @@ print("Utilitza f-strings per imprimir una presentació.")
 
 ### Completa aquí
 
-print("--------------")
+nom= "Marko"
+edat = 19
+alçada = float(1.84)
+print(f"Hola ! em dic {nom}, tinc{edat} i faig {alçada}metres")
 
 print("\nExercici 5: Nombres")
 print("1. Crea una variable amb el nombre PI (sense assignar una variable)")
@@ -48,6 +63,8 @@ print("2. Arrodoneix el nombre amb round()")
 print("3. Fes la divisió entera entre el nombre resultant i el nombre 2")
 print("4. El resultat hauria de ser 1")
 
+pi
+round(pi)
 print("--------------")
 
 print("\nExercici 6: Conversor de temperatura")

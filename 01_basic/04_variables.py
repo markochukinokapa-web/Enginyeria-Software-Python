@@ -42,7 +42,7 @@ name, age, city = "pepito", 32, "Madrid"
 # Convenciones de nombres de variables
 mi_nombre_de_variable = "ok" # snake_case
 nombre = "ok"
-
+#les seguents maneres de declarar variables no són recomanades, però són vàlides en Python
 miNombreDeVariable = "no-recomendado" # camelCase
 MiNombreDeVariable = "no-recomendado" # PascalCase
 minombredevariable = "no-recomendado" # todojunto
