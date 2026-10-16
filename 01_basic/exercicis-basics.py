@@ -100,5 +100,5 @@ print("Mostra 'Contrasenya vàlida' o 'Contrasenya no vàlida'.")
 ### Completa aquí
 
 pin = int(input("introdueix la teva contrasenya"))
-concl=(pin>0)
+concl=(pin>8)
 print(f"la contrasenya es {concl}")
