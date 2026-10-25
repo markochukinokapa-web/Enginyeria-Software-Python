@@ -44,12 +44,16 @@ lista1 = [1, 2, 3, 4, 5]
 # print(lista1[3:]) # [4, 5]
 # print(lista1[:]) # [1, 2, 3, 4, 5] Copia de la lista
 
+#join  ens permet unir els elements d'una llista amb un separador:
+mensaje = ["C", "o", "d", "i", " ", "s", "e", "c", "r", "e", "t"]
+print("".join(mensaje[5:]))  # secret
 
 # HAY MÁS MAGIA
 lista1 = [1, 2, 3, 4, 5, 6, 7, 8]
 print(lista1[1:6:2]) # [2, 4, 6] # [inicio:fin:paso]
 print(lista1[::2]) # para devolver índices pares
-print(lista1[::-1]) # para devolver índices inversos
+print(lista1[::-1]) # para devolver índices inversos, en este caso[posicion inicio:posicion final:
+                    # el orden en el que se va a leer la lista(en este caso es inverso)]
 
 # Modificar una lista
 lista1[0] = 20
