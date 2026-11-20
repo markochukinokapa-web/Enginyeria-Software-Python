@@ -6,11 +6,16 @@
 # Crea una funció saludar_a(nom, salutacio="Hola") que imprimeixi la salutació seguida del nom.
 # Prova-la amb i sense el segon argument.
 def saludar_a(nom, salutacio="Hola"):
-    print(f"{nom} soplapollas")
-saludar_a("Alejandro Garcia Henche")
+    print(f"Hola {nom}")
+saludar_a("Marko")
 
 # Exercici 2: Parell o senar
 # Crea una funció es_parell(numero) que retorni True si el número és parell i False si no ho és.
+def es_parell(numero):
+    if numero % 2 == 0:
+        return True
+    else:
+        return False
 
 # Exercici 3: Mitjana d'una llista
 # Crea una funció mitjana(numeros) que rebi una llista de números i en retorni la mitjana.
